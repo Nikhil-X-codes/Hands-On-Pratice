@@ -4,7 +4,26 @@ A daily log of hands-on practice, problem solving, and concept implementations a
 
 ---
 
-## 📅 Today's Progress (Day 1)
+## 📅 Day 2
+
+### 🟨 JavaScript (JS)
+
+| Topic / Problem | Concept / Category | Solution File | Status | Notes |
+|:---|:---|:---|:---:|:---|
+| Count Occurrences | Arrays / Hash Map / Map | [`JS/count_occerence.js`](JS/count_occerence.js) | ✅ Done | Element frequency counting using `Map` & `Object.fromEntries` |
+| Valid Anagrams | Strings / Frequency Map | [`JS/two_string_anagrams.js`](JS/two_string_anagrams.js) | ✅ Done | Verify if two strings are anagrams using character frequency maps |
+
+### 🐍 Python
+
+| Topic / Problem | Concept / Category | Solution File | Status | Notes |
+|:---|:---|:---|:---:|:---|
+| Filter Retrieval Results | Lists / Dictionaries / Filtering | [`Python/filter_reterive.py`](Python/filter_reterive.py) | ✅ Done | Filter RAG retrieval results based on score threshold |
+| Parse LLM Response | JSON / Error Handling | [`Python/json_string.py`](Python/json_string.py) | ✅ Done | Safe parsing of LLM response strings via `json.loads` |
+| Fetch Users from REST API | Requests / REST API / Error Handling | [`Python/api_handle.py`](Python/api_handle.py) | ✅ Done | Fetch users from JSONPlaceholder API and print user names |
+
+---
+
+## 📅 Day 1
 
 ### 🟨 JavaScript (JS)
 
@@ -19,8 +38,6 @@ A daily log of hands-on practice, problem solving, and concept implementations a
 | Event Loop Execution Order | Async JS / Event Loop | [`JS/pseudocode-1.js`](JS/pseudocode-1.js) | ✅ Done | Call stack, Microtasks (`Promise`) vs Macrotasks (`setTimeout`) |
 | Async/Await Bug Fix | Async JS / Promises | [`JS/async_await_bug.js`](JS/async_await_bug.js) | ✅ Done | Resolved promise handling & async/await execution |
 
----
-
 ### ⚛️ React
 
 | Topic / Exercise | Description / Focus | Workspace / Link | Status | Key Learnings |
@@ -28,15 +45,6 @@ A daily log of hands-on practice, problem solving, and concept implementations a
 | Hands On React Playground | Components, State & Core React Practices | [OneCompiler React Workspace](https://onecompiler.com/react/456b7w2zd) | ✅ Active | Interactive practice & component experimentation |
 
 ---
-
-### 🐍 Python
-
-| Topic / Problem | Concept / Category | File / Script | Status | Notes |
-|:---|:---|:---|:---:|:---|
-
-
----
-
 
 ### Access React Playground:
 Open the live editor: [https://onecompiler.com/react/456b7w2zd](https://onecompiler.com/react/456b7w2zd)
