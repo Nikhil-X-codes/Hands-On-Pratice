@@ -4,6 +4,28 @@ A daily log of hands-on practice, problem solving, and concept implementations a
 
 ---
 
+## 📅 Day 3
+
+### 🐍 Python
+
+| Topic / Problem | Concept / Category | Solution File | Status | Notes |
+|:---|:---|:---|:---:|:---|
+| API Retries Mechanism | Networking / Recursion / Resiliency | [`Python/api_retries.py`](Python/api_retries.py) | ✅ Done | Retry failed API requests with maximum retry limit |
+| Highest Confidence Selection | Lists / Dictionaries / Optimization | [`Python/highest_confidence.py`](Python/highest_confidence.py) | ✅ Done | Extract top candidate answer based on highest confidence score |
+| Concurrent LLM Prompt Execution | Asyncio / Concurrency / Parallel Tasks | [`Python/prompt_into_list.py`](Python/prompt_into_list.py) | ✅ Done | Batch async prompt execution using `asyncio.gather` |
+| Text Chunking for RAG | Text Processing / Slicing / RAG | [`Python/chunking_docs.py`](Python/chunking_docs.py) | ✅ Done | Split raw document text into fixed-size chunks |
+| Chunking with Source Metadata | File I/O / Pathlib / Metadata Tracking | [`Python/chunks_metadata.py`](Python/chunks_metadata.py) | ✅ Done | Read files from directory & build chunks with source + chunk ID metadata |
+
+### ⚛️ React
+
+| Topic / Concept | Description / Focus | File / Notes | Status | Key Learnings |
+|:---|:---|:---|:---:|:---|
+| Input Debouncing | Search Optimization / Timers | [`React/debouncing.txt`](React/debouncing.txt) | ✅ Done | Delay search execution using `useEffect` with cleanup `clearTimeout` |
+| Preventing Unnecessary Re-renders | Performance Optimization / Memoization | [`React/Unnecessary _Re_renders.txt`](React/Unnecessary%20_Re_renders.txt) | ✅ Done | Optimize child component rendering with `React.memo` & `useCallback` |
+| Direct DOM Access with useRef | Hooks / DOM Manipulation | [`React/useref.txt`](React/useref.txt) | ✅ Done | Persist mutable DOM reference & trigger programmatic `.focus()` |
+
+---
+
 ## 📅 Day 2
 
 ### 🟨 JavaScript (JS)
