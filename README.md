@@ -4,6 +4,23 @@ A daily log of hands-on practice, problem solving, and concept implementations a
 
 ---
 
+## 📅 Day 4
+
+### 🐍 Python
+
+| Topic / Problem | Concept / Category | Solution File | Status | Notes |
+|:---|:---|:---|:---:|:---|
+| Hybrid Search Result Merging | RAG / Search / Dictionaries | [`Python/Merge_results.py`](Python/Merge_results.py) | ✅ Done | Combine semantic & keyword results, keeping higher score per document |
+| Document Deduplication | Sets / Lists / Data Cleaning | [`Python/deduplicate_docs.py`](Python/deduplicate_docs.py) | ✅ Done | Deduplicate retrieved documents while preserving insertion order |
+
+### ⚛️ React
+
+| Topic / Concept | Description / Focus | File / Notes | Status | Key Learnings |
+|:---|:---|:---|:---:|:---|
+| Optimizing Search Queries (AbortController) | Race Conditions / Cleanup / Fetch | [`React/optimise_search_query.txt`](React/optimise_search_query.txt) | ✅ Done | Cancel in-flight network requests on query change with `AbortController` |
+
+---
+
 ## 📅 Day 3
 
 ### 🐍 Python

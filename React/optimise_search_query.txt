@@ -1,0 +1,65 @@
+import { useState, useEffect } from "react";
+
+function SearchUsers({ query }) {
+    const [users, setUsers] = useState([]);
+
+    useEffect(() => {
+
+        const controller = new AbortController();
+        const signal = controller.signal
+
+        fetch(`https://jsonplaceholder.typicode.com/users?name=${query}`,{signal})
+            .then(res => res.json())
+            .then(data => setUsers(data))
+            .catch(error =>{
+                
+                if(error.name !== "AbortError"){
+                    console.log("Error", error)
+                }
+
+                else{
+                    console.error("fetch Error",error)
+                }
+            })
+
+            return () => {
+                controller.abort();
+            }
+
+    }, [query]);
+
+    return (
+        <ul>
+            {users.map(user => (
+                <li key={user.id}>{user.name}</li>
+            ))}
+        </ul>
+    );
+}
+
+export default SearchUsers;
+
+
+
+
+
+
+
+1. Create controller
+
+new AbortController()
+
+
+2. Pass its signal to fetch
+
+fetch(url, { signal: controller.signal })
+
+
+3. Cancel when needed
+
+controller.abort()
+
+
+4. Fetch rejects with AbortError
+
+Handle it using .catch()
